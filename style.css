@@ -1,0 +1,495 @@
+/* Google Fonts: 
+font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Cinzel', serif;
+*/
+
+/*
+Deb's to do list:
+free icon credit
+*/
+
+/* brand colors: 
+#DC1E35 - red 
+#FFFFFF - white
+#02529C - blue
+*/
+
+body, html {
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}
+.navcontainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0% 10% 0% 10%;  
+  padding: 0% 0% 0% 0%;
+  z-index: 3;
+}
+.nav {
+  font-family: 'Comfortaa', cursive;
+  justify-content: space-between;
+  letter-spacing: .05em;
+  position: relative;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.top {
+  height: 40px;
+  background-color: #DC1E35; /* red */
+  margin: 0px;
+  padding: 0px;
+}
+.bottom {
+  color: #000000; /* black */
+  height: 100px;
+  background-color: #FFFFFF; /* white */
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+.nav ul {
+  list-style-type: none;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+.nav a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+.ulleft {
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.ulright {
+  display: flex;
+  align-content: flex-end; 
+  margin: 0px;
+  padding: 0px;
+}
+.tagline {
+  color: #FFFFFF; /* white */ 
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: .03em;
+  line-height: 20px;  
+  margin: 0px;
+  padding: 0px 0px 0px 30px;
+}
+a.ulb, a.ulc {
+  color: #EFEFEF; /* light gray */  
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 0px 30px 0px 30px;
+  margin: 0;
+}
+.ulb { 
+  border-right: 1px solid #EFEFEF; /* light gray */
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.day {
+  color: #000000; /* black */
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -.01em;
+  text-align: left;
+  font-size: 52px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+a.day {
+  padding: 0px 0px 0px 26px;
+  margin: 0px 0px 0px 0px; 
+}
+.nav a:hover, .day:hover, .night:hover {
+  color: #02529C; /* blue */
+}
+.night {
+  color: #000000; /* black */
+  font-family: 'Cinzel', cursive;
+  font-size: 61px;
+  font-weight: 900;
+  letter-spacing: .03em;
+  padding: 0px 0px 0px 3px;
+  margin: 0px 0px 0px 0px;
+}
+h6.vol {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  letter-spacing: .05em;
+  padding: 0px 20px 0px 0px;
+  margin: 0px;
+}
+h1.headline {
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  font-size: 55px;
+  letter-spacing: .05em;
+  padding: 0px 20px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  flex: 1;
+}
+.flag img {
+  padding: 0px 30px 0px 0px;
+  margin: 0px;
+  flex: 1;
+}
+/* hero */
+.hero {
+  width: 100%;
+  height: 100%;
+}
+
+h2.blurb {
+  color: #FFFFFF; /* white */
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: .02em;
+  text-shadow: 2px 2px 4px #000000;  /* black shadow */
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  margin: 0% 10% 0% 10%; 
+  padding: 0px 0px 30px 0px;
+}
+.bluehero {
+  width: auto;
+  background-color: #02529C; /* blue */
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 100px 0px;
+}
+.herobox {
+  margin: 60px 0% 75px 0%;
+  padding: 0px 0px 0px 0px;
+}
+h2.herocopy {
+  color: #000000; /* black */
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 37px;
+  letter-spacing: .02em;
+  margin: 0% 10% 0% 10%; 
+  padding: 0px 0px 0px 0px; 
+}
+.herocopy span, .dropcap {
+  font-family: 'Montserrat', sans-serif;   
+  font-size: 45px;
+  font-weight: 700;
+  padding: 0px 1px 0px 0px; 
+}
+h4.caption, h4.captionhorse  {
+  color: #FFFFFF; /* white */
+  font-family: 'Montserrat', sans-serif;  
+  font-weight: 300;
+  background-color: rgb(0,0,0); /* browser fallback */
+  background-color: rgba(0,0,0, 0.7); /* see-through */
+  font-size: 15px;
+  letter-spacing: .04em;
+  text-shadow: 1px 2px 4px #000000;
+}
+h4.caption {
+  position: absolute;
+  bottom: 10px;
+  right: 5%;
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 3px 3px 6px;
+}
+h4.captionhorse {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 7px 3px 7px;
+}
+.img2, .img3, /*.img4, .img5,*/ .img6, .img7 {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* horse is problem image */
+.img1 { 
+  height: 100%;
+  background-image: url("images/photo-concepts-istock.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 590px 0px;
+}
+.img2 {
+  background-image: url("images/charlvanrooy.jpeg");
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 700px 0px;
+}
+.img3 { 
+  background-image: url("images/johannes-groll-unsplash.jpeg");
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 250px 0px;
+}
+.img4 {
+  background-image: url("images/charlvanrooy.jpeg");
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 600px 0px;
+}
+/*
+.img4 {
+  background-image: url("images/jonatan-pie-whitefox-unsplash.jpeg");
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 300px 0px;
+}
+.img5 {
+  background-image: url("images/victor-benard-unsplash.jpeg");
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 300px 0px;
+}
+*/
+
+/* img6, img7 on about page */
+.img6 { 
+  background-image: url("images/ghost-presenter-iceberg-unsplash.jpeg");
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 200px 0px;
+}
+.img7 { 
+  background-image: url("images/musicfestival-aditya-chinchure-unsplash.jpeg");
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 200px 0px;
+}
+.aurora {
+  margin: 5% 0% 5% 0%;
+  padding: 0% 0% 0% 0%;
+}
+.imgcontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 0px 0px 0px;
+}
+.box {
+  background-color: #FFFFFF; /* white */ 
+  position: relative;
+  flex: 1;
+  padding: 0px 0px 330px 0px;
+}
+.boxa, .boxb  {
+  margin: 0px 2% 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+}
+.boxc {
+  background-color: #000000; /* black */ 
+  text-align: center;
+  margin: 0px 0px 0px 0%;
+}
+.credit h6 {
+  color: #000000; /* black */
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  float: right;
+  margin: 0px 5% 0px 0px; 
+  padding: 5px 0px 0px 0px;
+  z-index: 2;
+}
+
+/* horse credit */
+
+h6.credithorse a {  
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 1px 2px 2px #000000;
+  position: absolute;
+  float: right;
+  bottom: 8px;
+  right: 16px;
+}
+.creditwhite h6  {
+  bottom: 0px;
+  right: 16px;
+}
+
+.credit  a, .creditabtloc a  {
+  color: #000000; /* black */
+  text-decoration: none;
+}
+.creditwhite a, .credithorse a {
+  color: #FFFFFF; /* white */ 
+}
+.credit a:hover, .creditabtloc a:hover {
+  color: #02529C; /* black */
+}
+/* most of ABOUT & LOCATION below */
+.creditabtloc h6, .creditwhite h6 {
+  color: #000000; /* black */
+  font-family: 'Montserrat', sans-serif;  
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 110px;
+  right: 0px; 
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 10px 0px 0px;
+}
+.creditwhite h6 {
+  padding: 0px 0px 0px 0px; 
+  font-weight: lighter;
+}
+h3.captionabtloc {
+  color: #000000; /* black */
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  position: absolute;
+  left: 0px;
+  right: 5%;
+  margin: 0px 0px 0px 0px; 
+  padding: 30px 15px 0px 25px;
+}
+h3.capwhite {
+  color: #FFFFFF; /* white */ 
+  font-weight: lighter;
+  padding: 40px 0px 0px 0px;
+}
+.extrapages {
+  background-color: #EFEFEF; /* lighter grey */
+  margin: 0% 5% 0% 5%;
+  padding: 0% 0% 3% 0%;
+}
+h3.slug {
+  color: #000000; /* black */
+  font-family: 'Comfortaa', cursive;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 9% 6% 3% 6%;
+  margin: 0px 0% 0% 0%;
+}
+hr.lineabout {
+  margin: 0% 6% 3% 6%;
+  padding: 0% 0% 0% 0%;
+}
+p.bodyabout, p.bodylocation {
+  color: #000000; /* black */
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0% 6% 2% 6%;
+  margin: 0px 0px 0px 0px;
+}
+.aboutlocate {
+  color: #000000; /* black */
+  font-family: 'Comfortaa', cursive;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.blue, .red {
+  position: relative;
+  text-align: center;
+}
+.blue {
+  width: auto;
+  background-color: #02529C; /* blue */
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 80px 0px;
+}
+.red {
+  width: auto;
+  background-color: #DC1E35; /* red */
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 80px 0px;
+}
+.redabtloc, .grey, .white, .black {
+  margin: 0px 0px 0px 0px;
+  padding: 5% 5% 5% 5%;
+  z-index: 1;
+}
+.grey {
+  background-color: #EFEFEF; /* lighter grey */
+}
+.white {
+  background-color: #FFFFFF; /* white */
+}
+.black {
+  background-color: #000000; /* black */
+  padding: 5% 10% 5% 10%;
+}
+hr.linelocation {
+  margin: 0% 6% 3% 6%;
+  padding: 0% 0% 0% 0%;
+}
+/* flexes maps side by side */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}
+.mapa, .mapb {
+  border: 1px solid #02529C; /* blue */
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 60%; /* aspect ratio */
+  position: relative;
+  flex: 1;
+}
+.mapa {
+  margin: 0% 0% 0% 0%;
+}
+.mapb {
+  margin: 0% 0% 0% 0%;
+}
+.googlemap {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;  
+}
+.backtotop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.backtotop a {
+  color: #CDCDCD; /* light gray */
+  font-family: sans-serif;
+  font-weight:100;
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 4px 7px 4px 5px;
+}
+.backtotop a:hover {
+  color: #FFFFFF; /* white */
+}
