@@ -1,3 +1,3 @@
 # debmcode.github.io
 
-Day/Night Iceland is a mock travel site for an HTML & CSS class.
+Day/Night Iceland is a mock travel site, created for a TechConnect HTML & CSS class.
