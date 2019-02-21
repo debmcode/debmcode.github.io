@@ -332,14 +332,14 @@ h6.credithorse {
   right: 16px;
 }
 
-.credit  a, .creditabtloc a  {
+.credit, .creditabtloc  {
   color: #000000; /* black */
   text-decoration: none;
 }
-.creditwhite a, .credithorse {
+.creditwhite, .credithorse {
   color: #FFFFFF; /* white */ 
 }
-.credit a:hover, .creditabtloc a:hover {
+.credit:hover, .creditabtloc:hover {
   color: #02529C; /* black */
 }
 /* most of ABOUT & LOCATION below */
