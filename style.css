@@ -314,7 +314,7 @@ h4.captionhorse {
 
 /* horse credit */
 
-h6.credithorse a {  
+h6.credithorse {  
   font-family: 'Montserrat', sans-serif;  
   font-size: 10px;
   font-weight: 400;
@@ -336,7 +336,7 @@ h6.credithorse a {
   color: #000000; /* black */
   text-decoration: none;
 }
-.creditwhite a, .credithorse a {
+.creditwhite a, .credithorse {
   color: #FFFFFF; /* white */ 
 }
 .credit a:hover, .creditabtloc a:hover {
