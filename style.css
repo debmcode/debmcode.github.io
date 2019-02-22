@@ -328,6 +328,7 @@ h6.credithorse {
   right: 16px;
 }
 .creditwhite h6  {
+  color: #FFFFFF; /* white */
   bottom: 0px;
   right: 16px;
 }
@@ -357,6 +358,7 @@ h6.credithorse {
   padding: 0px 10px 0px 0px;
 }
 .creditwhite h6 {
+  color: #FFFFFF; /* white */
   padding: 0px 0px 0px 0px; 
   font-weight: lighter;
 }
