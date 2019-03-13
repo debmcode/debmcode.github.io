@@ -1,3 +1,3 @@
 # debmcode.github.io
 
-DayNight Iceland is a mock travel website created for an intro to HTML & CSS class.
+DayNight Iceland is a mock website created for an intro HTML & CSS class.
